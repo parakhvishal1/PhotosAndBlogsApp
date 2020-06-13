@@ -1,2 +1,2 @@
 # PhotosAndBlogsApp
-DemoProject
+DemoProject1
