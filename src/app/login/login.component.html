@@ -1,0 +1,23 @@
+<h1>
+  <div><mat-toolbar color="primary">Welcome To Photos And Blogs App</mat-toolbar>
+</div>
+</h1>
+
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+    <mat-card fxFlex= "25">
+      <mat-toolbar color="primary">Login</mat-toolbar>
+
+      <form fxLayoutAlign= "stretch" fxLayout="column" class="login-form">
+        <mat-form-field>
+          <input #username matInput placeholder="Username"  >
+        </mat-form-field>
+
+
+        <mat-form-field>
+          <input #password matInput type ="password" placeholder="Password" >
+        </mat-form-field>
+        <button mat-raised-button color ="primary" type="submit" (click)="onLoginClick(username, password)">Login</button>
+      </form>
+
+    </mat-card>
+</div>

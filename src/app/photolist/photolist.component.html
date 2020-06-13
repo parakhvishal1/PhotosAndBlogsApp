@@ -1,0 +1,8 @@
+<mat-grid-list cols="8" rowHeight="100px" gutterSize="5px" >
+  <mat-grid-tile
+      *ngFor="let picture of dataSource"
+      >
+    <img src='{{picture.thumbnailUrl}}' alt="">
+  </mat-grid-tile>
+</mat-grid-list>
+
